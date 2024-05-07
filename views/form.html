@@ -1,3 +1,5 @@
+{% extends 'base.html' %} {% block title %} Forms Page {% endblock %} {% block
+body %}
 <form action="/welcome" method="GET">
   Please enter your name.
   <input type="text" name="person" />
@@ -20,3 +22,4 @@
 
 <br /><br />
 <a href="/">Home</a>
+{% endblock %}
